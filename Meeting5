@@ -1,0 +1,9 @@
+Discussion from last week
+I had written out the first draft of “the problem” and “introduction” sections of the report. Rosemary had read through these and was happy for now with them.
+
+Plan for next week
+•	Design->is there any current systems out there which I can build upon rather than building from scratch e.g. logico. Look at current available repositories with any databases with samples of questions. Can I use this database as a part of my project. Aim for a  high level block diagram that shows what the old, the new and the future components of an ideal system would be. REMEMBER: Design is meant to be the ideal scenario if I had all the time in the world, if the design is not achieved at the end of the implementation its fine.
+•	Look at existing theorem provers e.g. Isabell/Hol, Coq, Lean, PVS to see what tools have been build for teaching natural deduction style proofs. See if there is any GUIs developed or interfaces for these systems. Look at Jasmin Blanchette as he as been working in this area: Jasmin Blanchette | Inria.
+•	Look at FM 2024 Tutorial track (https://www.fm24.polimi.it/?page_id=310) to see if anything has been published in this space - also check for other publication venues on proofs and education
+
+

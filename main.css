@@ -1,0 +1,532 @@
+/* -------------------------- */
+/* GLOBAL PAGE STYLES         */
+/* -------------------------- */
+
+/* Main page background and default text styling */
+body {
+  background: #f4f1e8;
+  margin: 0;
+  font-family: "Cinzel", serif;
+  color: #222;
+}
+
+/* Main wrapper for the whole game page */
+.game-container {
+  padding: 20px;
+  text-align: center;
+}
+
+/* -------------------------- */
+/* HEADER BAR                 */
+/* -------------------------- */
+
+/* Top header area containing the title, tutorial button and score */
+.header-bar {
+  background: #1d1a1a;
+  color: white;
+  padding: 20px;
+  font-size: 1.8rem;
+  margin: -20px -20px 20px -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  /* Needed so tutorial glow/highlight is not clipped */
+  overflow: visible;
+}
+
+/* Main title styling */
+.game-title {
+  margin: 0;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+}
+
+/* Container for the tutorial button and score on the right side */
+.header-right {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  /* Lets tutorial effects extend outside the box if needed */
+  overflow: visible;
+}
+
+/* Score box in the header */
+.score-panel {
+  /* Kept relative so the wrapper around it has proper size for the tutorial */
+  position: relative;
+  font-size: 1.4rem;
+  background: #333;
+  padding: 8px 18px;
+  border-radius: 8px;
+  overflow: visible;
+}
+
+/* Wrapper around the score so the tutorial can target it cleanly */
+#score-highlight {
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+}
+
+/* Circular tutorial/help button */
+.help-btn {
+  background: transparent;
+  border: 5px solid #7a42ff;
+  color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 45px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Hover effect for help button */
+.help-btn:hover {
+  background: #7a42ff;
+}
+
+/* -------------------------- */
+/* PROBLEM INFO               */
+/* -------------------------- */
+
+/* Section showing the current question info */
+.problem-section {
+  margin-bottom: 20px;
+}
+
+/* Displays the mode/topic name */
+.topic-label {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+/* Goal formula styling */
+.goal-text {
+  font-size: 1.2rem;
+}
+
+/* Small step count shown beside the goal */
+.step-count {
+  color: #555;
+  margin-left: 6px;
+}
+
+/* Wrapper for premises and goal cards */
+.premises-goal {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+/* Shared styling for the premises box and goal box */
+.premises-block,
+.goal-block {
+  min-width: 220px;
+  background: #fff;
+  border-radius: 10px;
+  border: 2px solid #b8a58f;
+  padding: 10px 16px;
+  text-align: left;
+}
+
+/* Headings inside the premises/goal cards */
+.premises-block h3,
+.goal-block h3 {
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-size: 1.1rem;
+}
+
+/* Premises list formatting */
+.premises-block ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+/* Extra spacing above the next question button */
+.next-btn {
+  margin-top: 10px;
+}
+
+/* -------------------------- */
+/* SPELLBOOK (Sidebar)        */
+/* -------------------------- */
+
+/* Fixed sidebar showing the proof lines already entered */
+.spellbook-container {
+  position: fixed;
+  left: 0;
+  top: 120px;
+
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.15);
+
+  min-height: 120px;
+
+  /* Needed so tutorial highlight is visible outside the box */
+  overflow: visible;
+}
+
+/* Inner content area of the spellbook */
+.spellbook-content {
+  margin-top: 10px;
+  color: black;
+  text-align: left;
+  padding: 12px;
+  border-radius: 12px;
+
+  /* Fixed width keeps the highlight box looking tidy */
+  width: 320px;
+  max-width: 320px;
+
+  overflow: visible;
+}
+
+/* Removes normal bullet styling from the proof line list */
+.spellbook-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Individual proof line styling */
+.spellbook-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 6px;
+  padding-left: 4px;
+}
+
+/* Number shown at the start of each line */
+.line-number {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+/* Formula text itself */
+.line-formula {
+  flex: 1 1 100%;
+  font-size: 1.05rem;
+}
+
+/* Small tag showing the rule used */
+.line-rule-tag {
+  display: inline-block;
+  background: #f0c06b;
+  color: #4b3e30;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+}
+
+/* Shows line references such as "from 1, 2" */
+.line-from {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: #f3e1c2;
+}
+
+/* -------------------------- */
+/* INGREDIENT BUTTONS         */
+/* -------------------------- */
+
+/* Main area holding the symbol buttons */
+.ingredient-bar {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Inner row of logical symbol buttons */
+.ingredient-row {
+  display: inline-flex;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 12px;
+  overflow: visible;
+}
+
+/* Style for each symbol/ingredient button */
+.ingredient-btn {
+  background: #6a4b33;
+  color: #fbe4b3;
+  border: 2px solid #3b2a1d;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  transition: 0.2s ease;
+}
+
+/* Small zoom and colour change on hover */
+.ingredient-btn:hover {
+  background: #8d654b;
+  transform: scale(1.08);
+}
+
+/* -------------------------- */
+/* WORKSPACE                  */
+/* -------------------------- */
+
+/* Main working area where the user builds and manages proof lines */
+.workspace-section {
+  margin-top: 20px;
+}
+
+/* Box showing the current formula being built */
+.workspace-display {
+  min-height: 40px;
+  width: 65%;
+  margin: auto;
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #b8a58f;
+  font-size: 1.3rem;
+  overflow: visible;
+}
+
+/* Placeholder text shown when no formula has been entered yet */
+.workspace-placeholder {
+  color: #888;
+}
+
+/* Row holding the rule dropdown and from input */
+.line-meta-inputs {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* Shared style for dropdown and text input */
+.rule-select,
+.from-input {
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 1px solid #b8a58f;
+  background: #fdf7ef;
+  font-family: inherit;
+}
+
+/* Keeps the from input compact */
+.from-input {
+  width: 130px;
+}
+
+/* Buttons such as Clear, Add Line, Undo */
+.workspace-controls {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Shared base style for main buttons */
+.primary-btn,
+.secondary-btn,
+.brew-btn {
+  padding: 23px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  transition: 0.2s;
+}
+
+/* Main action button */
+.primary-btn {
+  background: #3e7b2c;
+  color: white;
+}
+
+.primary-btn:hover {
+  background: #4fa03b;
+}
+
+/* Secondary button styling */
+.secondary-btn {
+  background: #6c6c6c;
+  color: white;
+}
+
+.secondary-btn:hover {
+  background: #8a8a8a;
+}
+
+/* Special styling for the Brew Potion button */
+.brew-btn {
+  background: #7b4b94;
+  color: white;
+  border: 2px solid #522b6c;
+  font-size: 1.2rem;
+}
+
+.brew-btn:hover {
+  background: #9b63b8;
+  transform: scale(1.05);
+}
+
+/* Wrapper around the brew button used for tutorial highlighting */
+.brew-highlight-wrapper {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 14px;
+  overflow: visible;
+}
+
+/* --------------------------
+   BREW AREA
+--------------------------- */
+
+/* Area containing the brew button and cauldron image */
+.brew-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  padding-left: 0;
+}
+
+/* Centres the brew button */
+.brew-controls {
+  display: flex;
+  justify-content: center;
+}
+
+/* Centres the cauldron image */
+.cauldron-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main cauldron image size and animation transition */
+.cauldron-icon {
+  width: 400px;
+  height: 400px;
+  transition: transform 0.2s ease;
+}
+
+/* --------------------------
+   TUTORIAL OVERLAY + HIGHLIGHT
+--------------------------- */
+
+/* Pulsing glow effect used for tutorial highlights */
+@keyframes tutorialPulse {
+  0% { box-shadow: 0 0 12px rgba(255, 215, 0, 0.6); }
+  50% { box-shadow: 0 0 30px rgba(255, 215, 0, 1); }
+  100% { box-shadow: 0 0 12px rgba(255, 215, 0, 0.6); }
+}
+
+/* Full-screen tutorial overlay */
+.tutorial-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+/* Darkened background layer behind the tutorial card */
+.tutorial-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+
+  /* This creates the spotlight hole around the current highlighted area */
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 100%,
+    0 0,
+    var(--hx, 0px) var(--hy, 0px),
+    var(--hx, 0px) calc(var(--hy, 0px) + var(--hh, 0px)),
+    calc(var(--hx, 0px) + var(--hw, 0px)) calc(var(--hy, 0px) + var(--hh, 0px)),
+    calc(var(--hx, 0px) + var(--hw, 0px)) var(--hy, 0px),
+    var(--hx, 0px) var(--hy, 0px)
+  );
+}
+
+/* Gold border around the highlighted target */
+.tutorial-highlight {
+  position: fixed;
+  border: 5px solid gold;
+  border-radius: 50px;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.9);
+  pointer-events: none;
+  z-index: 1002;
+  animation: tutorialPulse 1.5s infinite;
+  box-sizing: border-box;
+}
+
+/* Main tutorial message box */
+.tutorial-modal {
+  pointer-events: auto;
+  background: #fdf7ef;
+  border-radius: 14px;
+  padding: 24px 28px;
+  max-width: 520px;
+  width: 90%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  text-align: left;
+  position: fixed;
+  z-index: 1004;
+}
+
+/* Removes extra spacing above the tutorial heading */
+.tutorial-modal h2 {
+  margin-top: 0;
+}
+
+/* Checkbox/text option inside tutorial if used */
+.tutorial-checkbox {
+  display: block;
+  margin: 15px 0;
+  font-size: 0.95rem;
+}
+
+/* Buttons inside the tutorial card */
+.tutorial-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* Applied to the currently highlighted page element */
+.tutorial-active {
+  position: relative;
+  z-index: 1003; /* Puts it above the dimmed background */
+  border-radius: 12px;
+  animation: tutorialPulse 1.5s infinite;
+
+  /* Extra glow so the element stands out clearly */
+  box-shadow: 0 0 28px rgba(255, 215, 0, 0.95);
+}
+
+/* Slightly stronger effect for the spellbook specifically */
+#spellbook-highlight.tutorial-active {
+  box-shadow:
+    0 0 28px rgba(255, 215, 0, 0.95),
+    inset 0 0 12px rgba(255, 215, 0, 0.35);
+}

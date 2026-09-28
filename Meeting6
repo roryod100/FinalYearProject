@@ -1,0 +1,15 @@
+Went through work from previous week which included:
+
+-Possible database of questions which was found on github "The Natural Deduction Pack". Could work nicely
+as a way to funnel questions into the system.
+-NaDeA, which is a natural deduction assistant. I found its repository on GitHub which contained a .thy fie.
+This is where the background logic was defined in Isabelle. I thought this would be very useful to use in my project
+and would definitely be something I could build upon.
+-Went through my initial draft report write up based off research I have done.
+
+----------------------------------------------------------------------------------------------------------
+
+POA for next week
+-Isabelle thy files - NaDeA.thy and the Natural deduction theories to be understood
+-Papers that might build on or refer to NADeA work
+-Interface design- and mechanism for connection to Isabelle ( who has done it and how)

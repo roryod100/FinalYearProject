@@ -1,0 +1,364 @@
+[
+  {
+    "id": "P001",
+    "topic": "Propositional – Tier 1",
+    "goal": "1. P∧Q ⊢ P (1)",
+    "solution": ""
+  },
+  {
+    "id": "P002",
+    "topic": "Propositional – Tier 1",
+    "goal": "2. P∧Q ⊢ Q (1)",
+    "solution": ""
+  },
+  {
+    "id": "P003",
+    "topic": "Propositional – Tier 1",
+    "goal": "3. P ⊢ P∨Q (1)",
+    "solution": ""
+  },
+  {
+    "id": "P004",
+    "topic": "Propositional – Tier 1",
+    "goal": "4. Q ⊢ P∨Q (1)",
+    "solution": ""
+  },
+  {
+    "id": "P005",
+    "topic": "Propositional – Tier 1",
+    "goal": "5. P, P→Q ⊢ Q (2)",
+    "solution": ""
+  },
+  {
+    "id": "P006",
+    "topic": "Propositional – Tier 1",
+    "goal": "6. Q, ¬Q ⊢ P (1)",
+    "solution": ""
+  },
+  {
+    "id": "P007",
+    "topic": "Propositional – Tier 1",
+    "goal": "7. P ⊢ ¬¬P (1)",
+    "solution": ""
+  },
+  {
+    "id": "P008",
+    "topic": "Propositional – Tier 1",
+    "goal": "8. ¬¬P ⊢ P (1)",
+    "solution": ""
+  },
+  {
+    "id": "P009",
+    "topic": "Propositional – Tier 1",
+    "goal": "9. P→Q, Q→R ⊢ P→R (2)",
+    "solution": ""
+  },
+  {
+    "id": "P010",
+    "topic": "Propositional – Tier 1",
+    "goal": "10. P↔Q, P ⊢ Q (2)",
+    "solution": ""
+  },
+  {
+    "id": "P011",
+    "topic": "Propositional – Tier 2",
+    "goal": "⊢ P→P (1)",
+    "solution": ""
+  },
+  {
+    "id": "P012",
+    "topic": "Propositional – Tier 2",
+    "goal": "12. P ⊢ Q→P (2)",
+    "solution": ""
+  },
+  {
+    "id": "P013",
+    "topic": "Propositional – Tier 2",
+    "goal": "13. P→Q ⊢ ¬Q→¬P (3)",
+    "solution": ""
+  },
+  {
+    "id": "P014",
+    "topic": "Propositional – Tier 2",
+    "goal": "14. ¬P ⊢ P→Q (2)",
+    "solution": ""
+  },
+  {
+    "id": "P015",
+    "topic": "Propositional – Tier 2",
+    "goal": "15. P→Q ⊢ ¬Q→¬P (2)",
+    "solution": ""
+  },
+  {
+    "id": "P016",
+    "topic": "Propositional – Tier 2",
+    "goal": "16. ¬(P∧Q) ⊢ P→¬Q (3)",
+    "solution": ""
+  },
+  {
+    "id": "P017",
+    "topic": "Propositional – Tier 2",
+    "goal": "17. P, ¬P ⊢ Q (1)",
+    "solution": ""
+  },
+  {
+    "id": "P018",
+    "topic": "Propositional – Tier 2",
+    "goal": "18. (P→Q), (Q→P) ⊢ P↔Q (3)",
+    "solution": ""
+  },
+  {
+    "id": "P019",
+    "topic": "Propositional – Tier 2",
+    "goal": "19. P↔Q, P ⊢ Q (2)",
+    "solution": ""
+  },
+  {
+    "id": "P020",
+    "topic": "Propositional – Tier 2",
+    "goal": "20. P↔Q, Q ⊢ P (2)",
+    "solution": ""
+  },
+  {
+  "id": "P021",
+  "topic": "Propositional – Tier 3",
+  "goal": "21. P∨Q, ¬P ⊢ Q (2)",
+  "solution": ""
+},
+{
+  "id": "P022",
+  "topic": "Propositional – Tier 3",
+  "goal": "22. P∨Q, ¬Q ⊢ P (2)",
+  "solution": ""
+},
+{
+  "id": "P023",
+  "topic": "Propositional – Tier 3",
+  "goal": "23. (P→R), (Q→R), P∨Q ⊢ R (3)",
+  "solution": ""
+},
+{
+  "id": "P024",
+  "topic": "Propositional – Tier 3",
+  "goal": "24. (P∧Q)→R, P ⊢ Q→R (3)",
+  "solution": ""
+},
+{
+  "id": "P025",
+  "topic": "Propositional – Tier 3",
+  "goal": "25. P→(Q→R), P∧Q ⊢ R (2)",
+  "solution": ""
+},
+{
+  "id": "P026",
+  "topic": "Propositional – Tier 3",
+  "goal": "26. ¬(P→Q) ⊢ P∧¬Q (3)",
+  "solution": ""
+},
+{
+  "id": "P027",
+  "topic": "Propositional – Tier 3",
+  "goal": "27. ¬(P∨Q) ⊢ ¬P∧¬Q (3)",
+  "solution": ""
+},
+{
+  "id": "P028",
+  "topic": "Propositional – Tier 3",
+  "goal": "28. ¬P∨Q, P ⊢ Q (2)",
+  "solution": ""
+},
+{
+  "id": "P029",
+  "topic": "Propositional – Tier 3",
+  "goal": "29. (P→Q), (¬P→Q) ⊢ Q (2)",
+  "solution": ""
+},
+{
+  "id": "P030",
+  "topic": "Propositional – Tier 3",
+  "goal": "30. (P→Q), (Q→R) ⊢ P→R (2)",
+  "solution": ""
+},
+{
+  "id": "P031",
+  "topic": "Propositional – Tier 4",
+  "goal": "31. P↔Q ⊢ ¬P↔¬Q (3)",
+  "solution": ""
+},
+{
+  "id": "P032",
+  "topic": "Propositional – Tier 4",
+  "goal": "32. ¬(P∧Q) ⊢ P→¬Q (3)",
+  "solution": ""
+},
+{
+  "id": "P033",
+  "topic": "Propositional – Tier 4",
+  "goal": "33. ¬(P∨Q) ⊢ ¬P∧¬Q (3)",
+  "solution": ""
+},
+{
+  "id": "P034",
+  "topic": "Propositional – Tier 4",
+  "goal": "34. ¬¬(P→Q) ⊢ P→Q (2)",
+  "solution": ""
+},
+{
+  "id": "P035",
+  "topic": "Propositional – Tier 4",
+  "goal": "35. ¬(P→Q) ⊢ P∧¬Q (3)",
+  "solution": ""
+},
+{
+  "id": "P036",
+  "topic": "Propositional – Tier 4",
+  "goal": "36. (P→Q), (Q→R), ¬R ⊢ ¬P (3)",
+  "solution": ""
+},
+{
+  "id": "P037",
+  "topic": "Propositional – Tier 4",
+  "goal": "37. (P∨Q), (¬P∨R) ⊢ Q∨R (3)",
+  "solution": ""
+},
+{
+  "id": "P038",
+  "topic": "Propositional – Tier 4",
+  "goal": "38. (P↔Q), ¬P ⊢ ¬Q (2)",
+  "solution": ""
+},
+{
+  "id": "P039",
+  "topic": "Propositional – Tier 4",
+  "goal": "39. ¬(P↔Q) ⊢ (P∧¬Q)∨(Q∧¬P) (4)",
+  "solution": ""
+},
+{
+  "id": "P040",
+  "topic": "Propositional – Tier 4",
+  "goal": "40. (P→Q), (R→¬Q) ⊢ ¬(P∧R) (3)",
+  "solution": ""
+},
+{
+  "id": "P041",
+  "topic": "Propositional – Tier 5",
+  "goal": "41. (P∨Q), (P→R), (Q→S) ⊢ R∨S (3)",
+  "solution": ""
+},
+{
+  "id": "P042",
+  "topic": "Propositional – Tier 5",
+  "goal": "42. (P→Q), (Q→R), (R→S) ⊢ P→S (3)",
+  "solution": ""
+},
+{
+  "id": "P043",
+  "topic": "Propositional – Tier 5",
+  "goal": "43. (P→Q), (¬P→R), ¬Q ⊢ R (3)",
+  "solution": ""
+},
+{
+  "id": "P044",
+  "topic": "Propositional – Tier 5",
+  "goal": "44. ¬(P∨Q) ⊢ ¬P∧¬Q (3)",
+  "solution": ""
+},
+{
+  "id": "P045",
+  "topic": "Propositional – Tier 5",
+  "goal": "45. ¬(P∧Q) ⊢ ¬P∨¬Q (3)",
+  "solution": ""
+},
+{
+  "id": "P046",
+  "topic": "Propositional – Tier 5",
+  "goal": "46. (P→Q), (Q→R), ¬R ⊢ ¬P (3)",
+  "solution": ""
+},
+{
+  "id": "P047",
+  "topic": "Propositional – Tier 5",
+  "goal": "47. (P∨Q), ¬(P∧Q) ⊢ P↔¬Q (4)",
+  "solution": ""
+},
+{
+  "id": "P048",
+  "topic": "Propositional – Tier 5",
+  "goal": "48. (P↔Q), (Q↔R) ⊢ P↔R (3)",
+  "solution": ""
+},
+{
+  "id": "P049",
+  "topic": "Propositional – Tier 5",
+  "goal": "49. (P∨Q), (¬P∨R), ¬(Q∧R) ⊢ P (4)",
+  "solution": ""
+},
+{
+  "id": "P050",
+  "topic": "Propositional – Tier 5",
+  "goal": "50. (P→Q), (¬Q→R), ¬R ⊢ P (4)",
+  "solution": ""
+},
+  
+  {
+    "id": "PL051",
+    "topic": "Predicate Logic – Structural",
+    "goal": "1. ∀xPx ⊢ ∀xPx (1)",
+    "solution": "1. ∀xPx Premise\n2. ∀xPx Reiteration 1"
+  },
+  {
+    "id": "PL052",
+    "topic": "Predicate Logic – Structural",
+    "goal": "2. Pa, Qa ⊢ Pa ∧ Qa (1)",
+    "solution": "1. Pa Premise\n2. Qa Premise\n3. Pa ∧ Qa ∧ Intro 1,2"
+  },
+  {
+    "id": "PL053",
+    "topic": "Predicate Logic – Structural",
+    "goal": "3. Pa ∧ Qa ⊢ Pa (1)",
+    "solution": "1. Pa ∧ Qa Premise\n2. Pa ∧ Elim L 1"
+  },
+  {
+    "id": "PL054",
+    "topic": "Predicate Logic – Structural",
+    "goal": "4. Pa ∧ Qa ⊢ Qa (1)",
+    "solution": "1. Pa ∧ Qa Premise\n2. Qa ∧ Elim R 1"
+  },
+  {
+    "id": "PL055",
+    "topic": "Predicate Logic – Structural",
+    "goal": "5. Pa, Pa → Qa ⊢ Qa (1)",
+    "solution": "1. Pa Premise\n2. Pa → Qa Premise\n3. Qa → Elim 1,2"
+  },
+  {
+    "id": "PL056",
+    "topic": "Predicate Logic – Structural",
+    "goal": "6. ∀x(Px → Qx), Pa → Qa ⊢ Pa → Qa (1)",
+    "solution": "1. ∀x(Px → Qx) Premise\n2. Pa → Qa Premise\n3. Pa → Qa Reiteration 2"
+  },
+  {
+    "id": "PL057",
+    "topic": "Predicate Logic – Structural",
+    "goal": "7. ∀xPx, Qa ⊢ Qa ∨ ∀xPx (1)",
+    "solution": "1. ∀xPx Premise\n2. Qa Premise\n3. Qa ∨ ∀xPx ∨ Intro L 2"
+  },
+  {
+    "id": "PL058",
+    "topic": "Predicate Logic – Structural",
+    "goal": "8. Pa ⊢ Pa ∨ Qa (1)",
+    "solution": "1. Pa Premise\n2. Pa ∨ Qa ∨ Intro L 1"
+  },
+  {
+    "id": "PL059",
+    "topic": "Predicate Logic – Structural",
+    "goal": "9. Qa ⊢ Pa ∨ Qa (1)",
+    "solution": "1. Qa Premise\n2. Pa ∨ Qa ∨ Intro R 1"
+  },
+  {
+    "id": "PL060",
+    "topic": "Predicate Logic – Structural",
+    "goal": "10. Pa ∧ (Qa → Ra), Qa ⊢ Ra (2)",
+    "solution": "1. Pa ∧ (Qa → Ra) Premise\n2. Qa Premise\n3. Qa → Ra ∧ Elim R 1\n4. Ra → Elim 2,3"
+  }
+  ]
+
